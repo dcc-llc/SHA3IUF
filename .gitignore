@@ -1,4 +1,7 @@
-/*.o
-/*.a
-/sha3sum
-/sha3test
+.DS_Store
+/.build
+/Packages
+/*.xcodeproj
+xcuserdata/
+.swiftpm
+Package.resolved
