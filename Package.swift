@@ -13,7 +13,10 @@ let package = Package(
 		.library(name: "SHA3IUF", targets: ["SHA3IUF"])
 	],
 	dependencies: [
-		.package(url: "https://github.com/krzyzanowskim/CryptoSwift.git", .upToNextMajor(from: "1.4.2"))
+		.package(
+			url: "https://github.com/krzyzanowskim/CryptoSwift.git",
+			exact: "1.7.0"
+		)
 	],
 	targets: [
 		.target(
