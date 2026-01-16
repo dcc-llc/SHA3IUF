@@ -15,7 +15,7 @@ let package = Package(
 	dependencies: [
 		.package(
 			url: "https://github.com/krzyzanowskim/CryptoSwift.git",
-			exact: "1.7.0"
+			revision: "95c18f1c1bc44d5547728621ed680850368f7a45"
 		)
 	],
 	targets: [
